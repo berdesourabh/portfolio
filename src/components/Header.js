@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/Header.css';
-import avatar from '../img/img1.jpg';
+
 const Header = () => {
     return (
         <div className='header-container'>
