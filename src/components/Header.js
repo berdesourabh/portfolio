@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/Header.css';
+import { Link } from 'react-scroll';
 
 const Header = () => {
     return (
@@ -7,14 +8,14 @@ const Header = () => {
             <nav>
                 <div className='row'>
                     <div className='brand-name'>
-                        <h2><a href='#home' className='active'>Sourabh Berde</a></h2>
+                        <h2><Link to='home' className='active' smooth duration={1000}>Sourabh Berde</Link></h2>
                     </div>
                     <div className='navbar'>
                         <ul>
-                            <li><a href='#home' className='active'>Home</a></li>
-                            <li><a href='#skills' className='active'>Skills</a></li>
-                            <li><a href='#blogs' className='active'>Blogs</a></li>
-                            <li><a href='#about' className='active'>About</a></li>
+                            <li><Link to='home' className='active' smooth duration={1000}>Home</Link></li>
+                            <li><Link to='skills' className='active' smooth duration={1000}>Skills</Link></li>
+                            <li><Link to='blogs' className='active' smooth duration={1000}>Blogs</Link></li>
+                            <li><Link to='about' className='active' smooth duration={1000}>About</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -23,4 +24,4 @@ const Header = () => {
     );
 }
 
-export default Header;
+export default Header

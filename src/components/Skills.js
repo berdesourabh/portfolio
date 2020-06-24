@@ -10,6 +10,8 @@ import './css/Skills.css';
 const Skills = () => {
     return(
         <div class="skills-container">
+            <h1>Skills</h1>
+        <div class="skills">
             <div class="card spring">
                 <h2>Spring Boot</h2>
                 <p>4 years of experience in spring boot</p>
@@ -44,6 +46,7 @@ const Skills = () => {
                 <p>Good understanding of Kubernetes</p>
                 <img src={kubernetes} alt="Kubernetes" />
             </div>
+    </div>
     </div>
     );
 }

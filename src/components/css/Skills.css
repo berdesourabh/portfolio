@@ -3,8 +3,15 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    max-width: 1140px;
+    width: 100%;
     padding-top: 100px;
+    background-color: #EEEEEE;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .card {
     background-color: white;

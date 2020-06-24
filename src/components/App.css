@@ -6,10 +6,8 @@
     
 }
 
-
 body {
     max-width: 1200px;
     margin: auto;
     font-family: 'Poppins', sans-serif;
-    background-color: hsl(0, 0%, 98%);
 }
