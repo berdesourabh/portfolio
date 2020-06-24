@@ -1,0 +1,22 @@
+.home-container {
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.intro {
+    font-size: 30px;
+}
+
+.home-image {
+    margin-top: 150px;
+    width: 300px;
+    box-shadow: 0 10px 20px rgba(0,0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1 );
+    border-radius: 5px;
+    position: relative;
+}

@@ -1,0 +1,64 @@
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1140px;
+    padding-top: 100px;
+}
+.card {
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0,0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1 );
+    border-radius: 5px;
+    padding: 30px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;
+}
+
+.spring::after {
+    background-color: hsl(103, 47%, 51%);
+}
+
+.react::after {
+    background-color: hsl(187, 100%, 64%);
+}
+
+.postgres::after {
+    background-color: hsl(207, 100%, 30%);
+}
+
+.docker::after {
+    background-color: hsl(194, 100%, 36%);
+}
+
+.github::after {
+    background-color: hsl(315, 100%, 6%);
+}
+
+.kubernetes::after {
+    background-color: hsl(210, 100%, 36%);
+}
+
+.card h2 {
+    margin: 0;
+}
+.card p {
+    font-size: 14px;
+    margin: 15px 0 30px;
+}
+
+.card img {
+    display: block;
+    margin-left: auto;
+}
