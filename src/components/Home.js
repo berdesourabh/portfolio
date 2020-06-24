@@ -11,7 +11,7 @@ const Home = () => {
                 <h3>Java Developer</h3>
             </div>
             <div>
-                <img src={img} className='home-image'/>
+                <img src={img} alt='Sourabh Berde' className='home-image'/>
             </div>
         </div>
     </div>
